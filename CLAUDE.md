@@ -8,7 +8,7 @@ Dev backend (.NET, migração de legado), trabalhando com soluções de IA: Lite
 
 ## Regras de pesquisa
 
-- **Verifique antes de afirmar.** Harnesses e ferramentas mudam toda semana. Antes de descrever o estado atual de um projeto, consulte a fonte: web, docs ou o próprio código-fonte (dá para clonar em `/tmp` e ler).
+- **Verifique antes de afirmar.** Harnesses e ferramentas mudam toda semana. Antes de descrever o estado atual de um projeto, consulte a fonte: web, docs ou o próprio código-fonte (clone em `tmp/` na raiz do repo e leia).
 - **Fonte primária primeiro:** código, docs oficiais, posts de engenharia dos autores, papers, livros de referência.
 - **Toda afirmação sobre ferramenta ou projeto específico leva link e data de consulta** (`AAAA-MM-DD`).
 - **Marque o grau de certeza:**
@@ -45,7 +45,13 @@ Siga os templates do `README.md` para `harnesses/`, `software-engineering/` e `e
 - Ao citar um padrão que já tem arquivo em `patterns/`, linke o arquivo em vez de repetir o conteúdo.
 - Ao criar o primeiro arquivo real de uma pasta, apague o `.gitkeep` dela.
 
+## Repos estudados
+
+- Clone os repositórios que for estudar em `tmp/<nome>` na raiz deste repo (ex.: `git clone --depth 1 https://github.com/openai/codex tmp/codex`).
+- `tmp/` está no `.gitignore`: nada ali é versionado. Antes de clonar, confira se o repo já está em `tmp/`; se estiver, rode `git -C tmp/<nome> pull` em vez de clonar de novo.
+- Ao citar código de um repo estudado, aponte o link permanente no GitHub (com o hash do commit), não o caminho em `tmp/`.
+
 ## Git
 
+- **Trabalhe sempre na `main`.** É um repo de pesquisa: não crie branches nem abra PRs. Faça commit e push direto na `main`.
 - Commits pequenos, mensagens em pt-BR no imperativo: `adiciona análise do Aider`, `revisa context-compaction com fontes de nov/2026`.
-- Não faça commit de repositórios clonados para estudo; eles ficam fora do repo (`/tmp` ou similar).
