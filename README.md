@@ -39,6 +39,7 @@ Status: `pendente` · `em andamento` · `revisado`
 | [Unit Testing (Khorikov)](software-engineering/testing/khorikov-unit-testing.md) | testing | [`rules/testing.md`](rules/testing.md) | 2026-11-18 |
 | [TDD (Beck)](software-engineering/testing/beck-tdd.md) | testing | [`rules/tdd.md`](rules/tdd.md) | 2026-11-18 |
 | [Refactoring, 2ª ed. (Fowler)](software-engineering/practices/fowler-refactoring-2ed.md) | practices | [`rules/refactoring.md`](rules/refactoring.md) | 2026-11-18 |
+| [Legacy Code (Feathers)](software-engineering/practices/feathers-legacy-code.md) | practices | [`rules/legacy-code.md`](rules/legacy-code.md) | 2026-11-18 |
 
 ## Convenções
 

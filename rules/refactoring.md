@@ -15,7 +15,7 @@ Como refatorar código: mudar a estrutura interna **sem alterar o comportamento 
 ### Antes
 
 - Rode os testes do trecho. Se estiverem vermelhos ou não existirem, pare (ver "Quando parar e perguntar").
-- Cobertura fraca: proponha primeiro um characterization test, que fixa o comportamento atual, e só depois refatore. Escreva com valor esperado provisório, rode, troque pelo valor real e injete uma falha temporária para confirmar que o teste fica vermelho.
+- Cobertura fraca: proponha primeiro um characterization test, que fixa o comportamento atual, e só depois refatore.
 
 ### Durante
 
