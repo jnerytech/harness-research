@@ -132,16 +132,16 @@ Testar métodos privados, expor estado privado só para teste, vazar conheciment
 | 4 pilares e valor multiplicativo | **[opinião] do autor**, um modelo conceitual. Não achei estudo empírico validando a fórmula. As notas de 0 a 1 são subjetivas. |
 | Escola clássica > Londres | **Controverso.** Defensores da escola de Londres (ex.: *Growing Object-Oriented Software, Guided by Tests*, Freeman & Pryce) argumentam que mocks guiam o design de interfaces. Fowler descreve as duas sem declarar vencedora absoluta. Não achei estudo controlado comparando as duas. |
 | Mocks em excesso geram fragilidade | **Experiência documentada amplamente** (ex.: a discussão "Is TDD Dead?" entre Beck, Fowler e DHH, em que os três dizem mockar quase nada), mas é evidência anedótica, não quantitativa. |
-| Pirâmide de testes | Heurística consagrada, contestada por modelos alternativos (ex.: "testing trophy", que enfatiza integração). **[inferência]** Para backends .NET com banco gerenciado, a posição de Khorikov (banco real na integração) já fica próxima do troféu. |
+| Pirâmide de testes | Heurística consagrada, contestada por modelos alternativos (ex.: "testing trophy", que enfatiza integração). **[inferência]** Em backends com banco gerenciado, a posição de Khorikov (banco real na integração) já fica próxima do troféu. |
 
 ## 5. Aplicação prática
 
-### 5.1 Backend .NET
+### 5.1 Sistemas backend
 
-- Domain model puro, testado com xUnit no estilo output/state-based.
-- Integração com banco **real** (ex.: Testcontainers com SQL Server/Postgres), em vez de mockar repositório ou `DbContext`.
-- Mock (ex.: NSubstitute/Moq) só em adapters de message bus, e-mail e APIs externas.
-- Migração de legado: código overcomplicated (lógica + I/O misturados) → extrair o núcleo de decisão (humble object) antes de escrever testes. Teste em cima do monólito acoplado tende a sair frágil.
+- Domain model puro, testado no estilo output-based ou state-based.
+- Integração com banco **real** (ex.: banco efêmero em container), em vez de mockar repositório ou ORM.
+- Mock só em adapters de message bus, e-mail e APIs externas.
+- Código legado: código overcomplicated (lógica + I/O misturados) → extrair o núcleo de decisão (humble object) antes de escrever testes. Teste em cima do código acoplado tende a sair frágil.
 
 ### 5.2 Harnesses e agentes de IA
 
