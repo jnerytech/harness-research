@@ -43,6 +43,7 @@ Siga os templates do `README.md` para `harnesses/`, `software-engineering/` e `e
 ## Manutenção
 
 - Ao criar ou revisar uma análise em `harnesses/`, atualize a tabela "Harnesses analisados" do `README.md` (status e data).
+- Ao criar ou revisar um doc em `software-engineering/`, ou a rule derivada dele, atualize a tabela "Pesquisas de engenharia" do `README.md` (rule derivada e data).
 - Ao citar um padrão que já tem arquivo em `patterns/`, linke o arquivo em vez de repetir o conteúdo.
 - Ao criar o primeiro arquivo real de uma pasta, apague o `.gitkeep` dela.
 

@@ -32,6 +32,14 @@ rules/                  rules do Claude Code prontas para copiar ou linkar em .c
 
 Status: `pendente` · `em andamento` · `revisado`
 
+## Pesquisas de engenharia
+
+| Doc | Área | Rule derivada | Última revisão |
+|---|---|---|---|
+| [Unit Testing (Khorikov)](software-engineering/testing/khorikov-unit-testing.md) | testing | [`rules/testing.md`](rules/testing.md) | 2026-11-18 |
+| [TDD (Beck)](software-engineering/testing/beck-tdd.md) | testing | [`rules/tdd.md`](rules/tdd.md) | 2026-11-18 |
+| [Refactoring, 2ª ed. (Fowler)](software-engineering/practices/fowler-refactoring-2ed.md) | practices | [`rules/refactoring.md`](rules/refactoring.md) | 2026-11-18 |
+
 ## Convenções
 
 - **Fontes:** toda afirmação sobre ferramenta ou projeto específico leva link e data de consulta. Esses projetos mudam rápido; sem data, a informação não vale.
