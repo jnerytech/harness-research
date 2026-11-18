@@ -2,9 +2,9 @@
 
 Repositório de pesquisa sobre **harnesses de agentes de IA** (foco principal) e **engenharia de software** em geral. Não é código de produção: o produto aqui são documentos Markdown bem fundamentados. O `README.md` explica a estrutura e traz os templates.
 
-## Sobre mim
+## Público
 
-Dev backend (.NET, migração de legado), trabalhando com soluções de IA: LiteLLM, Strands/AgentCore na AWS, Kubernetes, Azure DevOps, Claude Code no dia a dia. Assuma conhecimento técnico e não explique o básico.
+Leitor técnico. Não explique o básico. O conteúdo é independente de linguagem e stack: use exemplos de uma tecnologia só quando ilustrarem o ponto, sem assumir uma específica.
 
 ## Regras de pesquisa
 
