@@ -28,6 +28,7 @@ Leitor técnico. Não explique o básico. O conteúdo é independente de linguag
 | Referência (paper, livro, post, repo) | `references/<tipo>.md` ou `references/<tema>.md`, com resumo de 2-3 linhas e por que importa |
 | Experimento prático | `experiments/AAAA-MM-DD-<tema>.md` |
 | Rascunho ou ideia solta | `notes/` |
+| Rule do Claude Code derivada da pesquisa | `rules/<tema>.md`, com frontmatter `paths` quando fizer sentido, linkando o doc de origem |
 
 Siga os templates do `README.md` para `harnesses/`, `software-engineering/` e `experiments/`. Se uma seção do template não se aplica, mantenha o título e escreva "n/a" com o motivo. Não remova a seção.
 

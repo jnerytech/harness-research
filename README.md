@@ -21,6 +21,7 @@ software-engineering/
 references/             papers, livros, posts e repos, com resumo e por que importam
 experiments/            testes práticos: AAAA-MM-DD-<tema>.md (hipótese, setup, resultado)
 notes/                  rascunhos e ideias soltas
+rules/                  rules do Claude Code prontas para copiar ou linkar em .claude/rules/
 ```
 
 ## Harnesses analisados
