@@ -40,6 +40,7 @@ Status: `pendente` · `em andamento` · `revisado`
 | [TDD (Beck)](software-engineering/testing/beck-tdd.md) | testing | [`rules/tdd.md`](rules/tdd.md) | 2026-11-18 |
 | [Refactoring, 2ª ed. (Fowler)](software-engineering/practices/fowler-refactoring-2ed.md) | practices | [`rules/refactoring.md`](rules/refactoring.md) | 2026-11-18 |
 | [Legacy Code (Feathers)](software-engineering/practices/feathers-legacy-code.md) | practices | [`rules/legacy-code.md`](rules/legacy-code.md) | 2026-11-18 |
+| [XP Explicada, 1ª ed. (Beck)](software-engineering/practices/beck-xp-explained.md) | practices | [`rules/xp.md`](rules/xp.md) | 2026-11-18 |
 
 ## Convenções
 
