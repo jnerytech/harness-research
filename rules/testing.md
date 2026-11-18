@@ -9,7 +9,7 @@ paths:
 
 # Testes
 
-Baseado em *Unit Testing Principles, Practices, and Patterns* (Khorikov). Pesquisa completa: `software-engineering/testing/khorikov-unit-testing.md` no repo harness-research.
+Baseado em *Unit Testing Principles, Practices, and Patterns* (Khorikov).
 
 ## Critério de valor
 
