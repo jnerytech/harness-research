@@ -62,6 +62,47 @@ Status: `pendente` · `em andamento` · `revisado`
 5. Aplicação prática, inclusive em harnesses e agentes
 6. Fontes
 
+### `rules/<tema>.md`
+
+Rules do Claude Code derivadas da pesquisa, para copiar ou linkar em `.claude/rules/` (projeto) ou `~/.claude/rules/` (usuário).
+
+````markdown
+---
+paths:            # opcional: omita para a rule carregar sempre
+  - "<glob>"
+---
+
+# <Tema>
+
+<Escopo em 1-2 linhas: o que a rule cobre e quando vale.>
+
+## Princípios
+<2-5 bullets: o critério que orienta decisões que as regras não cobrem.>
+
+## Regras
+<Bullets imperativos e verificáveis. Com mais de ~10, agrupe em ### por momento ou assunto.>
+
+## Evitar
+<Anti-patterns concretos.>
+
+## Quando parar e perguntar    (opcional)
+<Situações em que o agente pede confirmação ao usuário antes de seguir.>
+
+## Ao terminar                 (opcional)
+<O que o agente reporta no fim.>
+````
+
+Convenções:
+
+- **Um tema por arquivo**, nome em kebab-case (`testing.md`, `api-design.md`).
+- **Autocontida:** sem links para docs do repo, sem fontes, sem marcação [fato]/[inferência]/[opinião]. A rastreabilidade fica no doc de pesquisa de origem.
+- **Sem TL;DR:** a linha de escopo cumpre esse papel.
+- **Imperativa e verificável:** "um Act por teste", não "escreva testes limpos". Quando a regra não for óbvia, dê o porquê em meia linha.
+- **Impessoal e independente de stack:** fale com o agente; refira-se a quem o usa como "o usuário". Exemplos neutros de linguagem.
+- **Curta:** alvo de até ~100 linhas. Cada linha custa contexto sempre que a rule carrega.
+- **`paths`** só quando o tema se restringe a certos arquivos (ex.: testes). Rules de processo (refactoring) ficam sem `paths`.
+- **Sem sobreposição:** cada regra vive em um só arquivo. Antes de criar uma rule, confira se outra já cobre o assunto e se não há contradição.
+
 ### `experiments/AAAA-MM-DD-<tema>.md`
 
 1. Hipótese
