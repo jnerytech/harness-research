@@ -28,14 +28,14 @@ Leitor técnico. Não explique o básico. O conteúdo é independente de linguag
 | Referência (paper, livro, post, repo) | `references/<tipo>.md` ou `references/<tema>.md`, com resumo de 2-3 linhas e por que importa |
 | Experimento prático | `experiments/AAAA-MM-DD-<tema>.md` |
 | Rascunho ou ideia solta | `notes/` |
-| Rule do Claude Code derivada da pesquisa | `rules/<tema>.md`, autocontida (sem link para docs do repo), com frontmatter `paths` quando fizer sentido |
+| Rule do Claude Code derivada da pesquisa | `rules/<tema>.md`, seguindo `.claude/rules/rules-authoring.md` |
 
-Siga os templates do `README.md` para `harnesses/`, `software-engineering/`, `rules/` e `experiments/`. Se uma seção do template não se aplica, mantenha o título e escreva "n/a" com o motivo. Não remova a seção.
+Siga os templates do `README.md` para `harnesses/`, `software-engineering/` e `experiments/`. Se uma seção do template não se aplica, mantenha o título e escreva "n/a" com o motivo. Não remova a seção.
 
 ## Escrita
 
 - pt-BR. Termos técnicos ficam em inglês (tool calling, context window, subagent...).
-- Todo documento começa com um **TL;DR** de 2-3 linhas. Exceção: arquivos em `rules/` seguem o formato próprio descrito no `README.md`.
+- Todo documento começa com um **TL;DR** de 2-3 linhas. Exceção: arquivos em `rules/` seguem `.claude/rules/rules-authoring.md`.
 - Comparações vão em tabela; fluxos e arquiteturas, em Mermaid.
 - Seja direto: frases curtas, sem enchimento.
 - Os comentários `<!-- path: ... -->` vindos do projeto Claude web indicam onde o arquivo deve ficar. Remova o comentário ao salvar o arquivo no lugar certo.
