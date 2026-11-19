@@ -2,7 +2,7 @@
 
 ## 1. TL;DR
 
-*The Art of Crafting User Stories* (Christopher Lee, Packt, 2023) é um guia prático que junta as ferramentas usuais de user stories: o template persona/ação/benefício, os 3 Cs, INVEST, critérios de aceitação com casos negativos e de borda, priorização (MoSCoW, WSJF, RICE, Kano), estimativa relativa e quebra em fatias verticais. A tese central, reforçada nas entrevistas do cap. 8, é que a story é **um lembrete de conversa, não uma especificação**. A evidência empírica é fraca: percepção de praticantes, frameworks de qualidade sem validação de resultado e estudos mistos sobre planning poker. Para agentes, o que mais rende é tratar os critérios de aceitação como contrato verificável e quebrar o trabalho em fatias verticais.
+*The Art of Crafting User Stories* (Christopher Lee, Packt, 2023) é um guia prático que junta as ferramentas usuais de user stories: o template persona/ação/benefício, os 3 Cs, INVEST, critérios de aceitação com casos negativos e de borda, priorização (MoSCoW, WSJF, RICE, Kano), estimativa relativa e quebra em fatias verticais. A tese central, reforçada nas entrevistas do cap. 8, é que a story é **um lembrete de conversa, não uma especificação**. A evidência empírica é fraca: percepção de praticantes, frameworks de qualidade sem validação de resultado e estudos mistos sobre planning poker. Para agentes, o que mais rende é tratar os critérios de aceitação como contrato verificável e quebrar o trabalho em fatias verticais. O livro clássico do tema, com as divergências em relação a este, está em [`cohn-user-stories-applied.md`](cohn-user-stories-applied.md).
 
 ## 2. Problema que resolve
 

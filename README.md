@@ -42,6 +42,7 @@ Status: `pendente` · `em andamento` · `revisado`
 | [Legacy Code (Feathers)](software-engineering/practices/feathers-legacy-code.md) | practices | [`rules/legacy-code.md`](rules/legacy-code.md) | 2026-11-18 |
 | [XP Explicada, 1ª ed. (Beck)](software-engineering/practices/beck-xp-explained.md) | practices | [`rules/xp.md`](rules/xp.md) | 2026-11-18 |
 | [User Stories (Lee)](software-engineering/practices/lee-crafting-user-stories.md) | practices | [`rules/user-stories.md`](rules/user-stories.md) | 2026-11-18 |
+| [User Stories Applied (Cohn)](software-engineering/practices/cohn-user-stories-applied.md) | practices | [`rules/user-stories.md`](rules/user-stories.md) | 2026-11-18 |
 
 ## Convenções
 
